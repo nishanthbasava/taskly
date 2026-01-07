@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def list(request):
-    return HttpResponse("Hello, world! :D")
+    return render(request, "core/list.html")
